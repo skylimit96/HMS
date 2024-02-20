@@ -84,11 +84,3 @@ footer {
     text-align: center;
     z-index: 100;
 }
-
-.login-form__mail {
-    margin-left: 15px ;
-}
-
-.login-form__age {
-    margin-left: 42px;
-}

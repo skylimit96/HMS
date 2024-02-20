@@ -1,0 +1,149 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #8fb890;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: #496755;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.logo{
+    margin-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 60px;
+    z-index: 100;
+    align-items: center;
+    width: 100%;
+    background-color: #496755;
+    color: #ffffff;
+}
+
+.logout-icon {
+    position: relative;
+    top: 10px;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.8;
+    background-color: #d1d3d2;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    }
+
+.box {
+    width: 100%;
+    border: 1px solid #fbf8f800;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #ffffff76;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 
+                0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.logout-icon:hover {
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+.login-form__input {
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form__textarea {
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    height: 150px;
+}
+
+.login-form_submit {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form_submit:hover {
+    background-color: #45a049;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+.login-form_submit:active {
+    background-color: #45a049;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.login-form__title {
+    text-align: center;
+    font-weight: bold;
+}

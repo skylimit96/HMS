@@ -18,7 +18,7 @@ body {
 button {
     cursor: pointer;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #496755;
     color: #ffffff;
     transition: all .5s ease;
@@ -110,9 +110,14 @@ footer {
     cursor: pointer;
 }
 
-
-/************** PROFILE UPDATE PAGE *************/
-
+.btn {
+    height: 30px;
+    width: 120px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #000000;
+}
 
 .box {
     display: flex;
@@ -143,7 +148,7 @@ footer {
     border-bottom: 1px solid #e6e6e6;
 }
 
-.login-form__input, .login-form__mail ,.login-form__age {
+.login-form__input, .login-form__mail , .login-form__age {
     width: 300px;
     height: 30px;
     margin-bottom: 10px;
@@ -183,4 +188,10 @@ footer {
 
 .login-form__age {
     margin-left: 42px;
+}
+
+.config-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
