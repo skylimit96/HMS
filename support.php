@@ -13,12 +13,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
     $subject = $_POST['subject'];
     $message = $_POST['message'];
+    $email = $_POST['email'];
 
     // Set recipient email address
     $to = 'a.sehlaoui96@gmail.com';
 
     // Set email headers
-    $headers = "From: Hospital Management System <noreply@example.com>\r\n"; // You can change the sender name and email
+    $headers = "From: Hospital Management System <$email>\r\n"; // You can change the sender name and email
     $headers .= "Reply-To: a.sehlaoui96@gmail.com\r\n"; // Change the reply-to email address
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
@@ -76,6 +77,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <textarea name="message" class="login-form__textarea" placeholder="Message" required></textarea>
                 <input type="submit" value="Send" class="login-form_submit">
             </form>
+            <br>
         </div>
     </div>
 </main>  
